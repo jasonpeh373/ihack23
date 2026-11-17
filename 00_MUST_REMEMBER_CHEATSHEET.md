@@ -1,6 +1,7 @@
 # RE:HACK (iHACK26) 决赛唯一总手册（浏览器版 Pwnbox 直接复制粘贴）
 
 ---
+find / -path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -type f -size -1M -exec grep -lIE '(^|[^A-Z0-9])[A-Z0-9]{31}=' {} + 2>/dev/null
 
 ## ⚡ 明天上场最快用的 2 个极简脚本（直接复制到浏览器 Pwnbox 终端）
 
