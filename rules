@@ -1,0 +1,73 @@
+RE:HACK Infra [RN10],  — 2026/11/13 10:52
+General Rules
+All participants must comply with the competition rules and instructions provided by the organisers.
+Participants must act fairly and professionally throughout the competition.
+Any attempt to disrupt the competition infrastructure, scoring system, or other teams outside the intended game mechanics is strictly prohibited.
+The organisers reserve the right to investigate suspicious activities and penalise teams that violate the rules.
+ 
+RE:HACK Infra [RN10],  — 2026/11/13 12:17
+Mandatory Pwnbox Usage Strictly enforced
+All participants MUST use the Pwnbox environment provided by the organisers to participate in the competition.
+Participants are strictly prohibited from using their own:
+Personal laptops or computers to perform competition activities.
+Virtual machines (VMs).
+Cloud instances, VPS, or external servers.
+External hacking environments or attack platforms.
+Any 3rd party device (flipper-zero, Raspberry Pi, etc)
+
+All competition related activities, including attacking, defending, analysing, and interacting with challenge infrastructure, must be conducted through the provided Pwnbox ONLY!
+
+Participants must not bypass Pwnbox restrictions or establish unauthorised connections through external environments.
+
+The organisers reserve the right to monitor Pwnbox activities to ensure compliance.
+
+Failure to comply may result in disqualification.
+RE:HACK Infra [RN10],  — 2026/11/13 12:44
+AI Usage Policy
+The use of Artificial Intelligence (AI) tools is strictly prohibited throughout the competition.
+Participants must not use AI-powered tools or services to assist with any competition-related activities.
+Prohibited AI tools include, but are not limited to:
+ChatGPT, Claude, Gemini, Microsoft Copilot and DeepSeek.
+AI-powered coding assistants such as GitHub Copilot, Cursor and Windsurf.
+AI-powered vulnerability analysis and exploitation tools.
+AI-powered automated agents or autonomous hacking tools.
+Participants must not use AI to generate, modify, debug, or optimise exploit code, scripts, payloads, or defensive solutions.
+Participants must not submit competition challenges, source code, binaries, network traffic, or flags to AI services for analysis.
+The following activities are strictly prohibited:
+Using AI to identify or analyse vulnerabilities.
+Generating exploits, payloads, or attack scripts using AI.
+Using AI to troubleshoot or debug competition-related code.
+Using AI to analyse captured network traffic or challenge binaries.
+Using AI to automate attacks or defensive operations.
+Using AI to search for solutions or hints to competition challenges.
+Using AI through APIs, browser extensions, plugins, or third-party integrations.
+
+Additional rules, clarifications, restrictions, and competition-related updates may be announced by the organisers on the event day. 
+RE:HACK Infra [RN10],  — 2026/11/13 13:46
+Please take note of the following rules for the final round:
+
+Each team is allowed to have only up to 3 active players during the competition.
+The 4th player will serve as a substitute.
+Substitutions are allowed only between Phase 1 and Phase 2.
+No player changes or substitutions are allowed while a phase/game is in progress.
+Player 4 (substitute) is not allowed to communicate with active players or share any challenge-related information, hints, solutions, flags, or exploits during an ongoing phase.
+Please ensure your team finalises its lineup before the competition begins.
+RE:HACK Infra [RN10],  — 17:05
+DONT DO THIS!!
+DDoS (Distributed Denial of Service) by flooding a service or network with excessive traffic to disrupt availability. For automation script, put delay 2sec atleast.
+Unauthorized Network Sniffing. Your team only can capture or monitoring network traffic inside your assigned competition environment. (you have control only).
+Executing processes designed to exhaust system resources, including CPU, memory, or process limits. (Fork Bomb)
+Disrupting Other Players' Services: Intentionally crashing, disabling, exploiting infrastructure, or otherwise interfering with services belonging to other teams.
+Scanning, enumeration, or probing of other teams' services.. (everything already provided. Not allowed to run any port scanning, directory scanning etc)
+Change configuration in Firewall, not limited to:
+-- modifying firewall rules.
+-- adding IP-based restrictions to block other teams.
+-- dropping or rejecting connections from competing teams
+-- manipulating network filtering to prevent legitimate competition traffic.
+-- changing firewall policies to gain an unfair competitive advantage. 
+
+RE:HACK Clarifications (UiTM Venue & Tooling):
+1. UiTM only provides each team with 1 LAN cable and 1 plug point. Bring your own router/switch and power extensions.
+2. External monitors are allowed.
+3. Phase 1 and Phase 2 are different, but both must use the provided Pwnbox.
+4. Pre-existing automation tools/scripts (e.g., RsaCtfTool, linpeas, Wireshark, and AI-assisted scripts written BEFORE the competition) CAN be brought into Pwnbox, as long as they do not connect to any AI/MCP and human interaction ("human touch") is still used. During the competition, using AI is strictly prohibited.

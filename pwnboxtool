@@ -1,0 +1,30 @@
+# Linux pwnbox tools
+## Desktop
+Firefox, XFCE, Thunar, Mousepad, Geany, xfce4-terminal
+## Pwn
+gdb, gdb-multiarch, gdbserver, pwndbg (GEF if the pwndbg installer fails), pwntools, one_gadget, ROPgadget, ropper, checksec.py, patchelf, ltrace, strace, nasm, gcc, g++, gcc-multilib, g++-multilib, libc6-dbg, binutils, qemu-user, qemu-user-static, elfutils, file
+
+## Reverse
+Ghidra 11.3, rizin, radare2, jadx 1.5.1, apktool 2.11.1, binwalk, upx, ltrace, strace
+
+## Web
+Firefox, ffuf 2.3.0, gobuster 3.6.0, feroxbuster 2.11.0, nuclei 3.4.10, sqlmap, nikto, whatweb, wfuzz, dirb, mitmproxy, jwt_tool, flask, requests
+
+Wordlists: `/opt/wordlists/common.txt`, `/opt/wordlists/raft-small-words.txt`
+
+## Crypto
+hashcat, john, hashid, name-that-hash, pycryptodome, z3-solver, sympy, gmpy2, fcrackzip, pdfcrack, crunch
+
+## Forensics
+Wireshark, tshark, tcpdump, volatility3, foremost, testdisk, steghide, stegsnow, outguess, zsteg, exiftool, imagemagick, pngcheck, zbar-tools, qrencode, ffmpeg, tesseract-ocr
+
+## Network and AD
+nmap, masscan, hydra, medusa, evil-winrm, impacket, smbclient, smbmap, enum4linux, nbtscan, onesixtyone, snmp, ldap-utils, cewl, ftp, telnet, nfs-common, socat, netcat, proxychains4, openvpn, whois, dnsutils, traceroute, sslscan
+
+## Languages and clients
+Python 3, pip, Ruby, OpenJDK 21, Node.js, npm, PHP, Go, MySQL client, PostgreSQL client, Redis tools, SQLite
+
+Python libraries: capstone, keystone-engine, lief, ipython, tqdm, dnspython, paramiko
+
+## Containers and other
+Docker (host engine through `/var/run/docker.sock`), docker-compose, git, vim, tmux, jq, ripgrep, rlwrap, p7zip, figlet, neofetch
